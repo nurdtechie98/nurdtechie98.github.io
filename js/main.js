@@ -12,7 +12,7 @@ var $nav,
     scrollTop,
     navBool;
 
-var md = new MobileDetect(window.navigator.userAgent);
+//var md = new MobileDetect(window.navigator.userAgent);
 
 function msieversion() {
 
@@ -51,11 +51,11 @@ $(function() {
   $("#content").hide();
   $("#content").fadeIn(600);
 
-  if(md.mobile()) {
+  /*if(md.mobile()) {
     $('body').addClass('mobile');
   } else {
     $('body').addClass('not-mobile');
-  }
+  }*/
 
   if(ie) {
     $('body').addClass('ie');
@@ -149,9 +149,9 @@ function scroll() {
   }
   scrollVal = scrollTop;
 
-  if(!md.mobile()) {
+/*  if(!md.mobile()) {
     scrollVideo();
-  }
+  }*/
 }
 
 function showNav() {

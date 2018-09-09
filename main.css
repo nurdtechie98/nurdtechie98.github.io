@@ -187,12 +187,12 @@ p{
   width: 100%;
 }
 /* line 128, ../sass/screen.scss */
-.mobile .content-main {
+/*.mobile .content-main {
   position: relative;
   overflow: hidden;
   display: block;
   z-index: 10;
-}
+}*/
 
 /* line 136, ../sass/screen.scss */
 .image-fill {
@@ -200,7 +200,7 @@ p{
   pointer-events: none;
 }
 /* line 140, ../sass/screen.scss */
-.mobile .image-fill {
+/*.mobile .image-fill {
   height: 100%;
   display: block;
   position: fixed;
@@ -209,7 +209,7 @@ p{
   bottom: 0;
   right: 0;
   overflow: hidden;
-}
+}*/
 
 /* line 152, ../sass/screen.scss */
 .image-fill img {
@@ -237,7 +237,7 @@ p{
   text-transform: uppercase;
 }
 
-/* line 180, ../sass/screen.scss */
+/* line 180, ../sass/screen.scss *//*
 .mobile .section h1, .mobile .section h2, .mobile .section h3, .mobile .section p,
 .ie .section h1,
 .ie .section h2,
@@ -291,7 +291,7 @@ p{
 .ie .section:nth-child h3 .button span:before,
 .ie .section:nth-child p .button span:before {
   color: white !important;
-}
+}*/
 
 /* line 211, ../sass/screen.scss */
 p em {
@@ -484,9 +484,9 @@ a.button {
   background-size: auto 30%;
 }
 /* line 374, ../sass/screen.scss */
-.mobile .cat {
+/*.mobile .cat {
   background-image: none !important;
-}
+}*/
 
 /* line 379, ../sass/screen.scss */
 .cat.skate-hover {
