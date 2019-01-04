@@ -4,6 +4,9 @@ import Layout from '../components/layout'
 import Header from '../components/Header'
 import Main from '../components/Main'
 import Footer from '../components/Footer'
+import SEO from '../components/SEO'
+
+import pic from '../images/test.gif'
 
 class IndexPage extends React.Component {
   constructor(props) {
@@ -92,6 +95,13 @@ class IndexPage extends React.Component {
   render() {
     return (
       <Layout location={this.props.location}>
+        <SEO
+          title="Chirag Shetty | nurdtechie98"
+          description="The space in the internet belonging to chirag shetty"
+          image={pic}
+          pathname="/"
+          article
+        />
         <div className={`body ${this.state.loading} ${this.state.isArticleVisible ? 'is-article-visible' : ''}`}>
           <div id="wrapper">
             <Header onOpenArticle={this.handleOpenArticle} timeout={this.state.timeout} />
