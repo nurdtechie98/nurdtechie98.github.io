@@ -18,9 +18,7 @@ const Layout = ({ children, location }) => {
   } else {
     content = (
       <div id="wrapper" className="page">
-        <div>
           {children}
-        </div>
       </div>
     )
   }
