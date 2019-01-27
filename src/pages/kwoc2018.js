@@ -115,6 +115,10 @@ const SecondPage = () => (
         Not only was this project in itself a great learning experience but it also prooved to be an inspiration to work on an independent side project <a href="">Drive-CLI</a>.<br/>
         I would recommend more and more people to start contributing to such events which can be very usefull starting point for beginners.
       </p>
+      <h3>Update:</h3>
+      <ul>
+       <li>The last standing pull request was merged to Dev branch on 17th of January and will be hopefully merged to master as well soon.</li>
+      </ul>
       <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
