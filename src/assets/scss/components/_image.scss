@@ -33,7 +33,8 @@
 		}
 
 		&.left,
-		&.right {
+		&.right,
+		&.lefter {
 			max-width: 40%;
 
 			img {
@@ -45,6 +46,13 @@
 			float: left;
 			padding: 0 1.5em 1em 0;
 			top: 0.25em;
+		}
+
+		&.lefter {
+			float: left;
+			padding: 0 1em 1em 0;
+			//top: 0.25em;
+			max-width: 5%;
 		}
 
 		&.right {
