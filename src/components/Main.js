@@ -12,12 +12,11 @@ class Main extends React.Component {
 
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">About Me</h2>
-          <p>I am currently a senior year undergrad student in the Department of <strong>Computer Science</strong> at K.J Somaiya College Of Engineering , Mumbai . </p>
-          <p>Over the period of past years, I have spent a lot of my time solving problems on <a href='https://www.codechef.com/users/nurdtechie98'>codechef</a> , <a href='https://www.codechef.com/users/nurdtechie98'>codeforces</a> and other <strong>competitive programming</strong> websites.</p>
-          <p>Building new products and exploring new tech is what I love doing thus, <strong>hackathons</strong> are events that I don't miss by any chance. At the same time I have also done my bit of <strong>Open Source</strong> contributions.</p>
-          <p>Currently, I am looking for developer roles at an organisation which has room for learning and the same time values my contribution.</p> 
-          <p>Feel like hiring me. Heres my complete <a href={Pdf}>resume</a></p>
-          <p>I would love connecting with you :)</p>
+          <p>I am a software engineer, currently working on App Automate product of <strong>Browserstack</strong> for the past couple of years. Building new products and exploring new tech is what I love doing .</p>
+          <p>Back in my college days, I used to spend a lot of my time solving problems on <a href='https://www.codechef.com/users/nurdtechie98'>codechef</a> <a href='https://www.codechef.com/users/nurdtechie98'>codeforces</a> and other <strong>competitive programming</strong> websites. Building new products is something which charged back then as well and as a result I have been to multiple <strong>hackathons</strong></p>
+          <p>At the same time I have also done my bit of <strong>Open Source</strong> contributions checkout my github profile.</p>
+          <p>Feel like working with me. Heres my complete <a href={Pdf}>resume</a></p>
+          <p>Have an amazing product idea ? Hit me up I would love connecting with you :)</p>
           {close}
         </article>
 
@@ -59,6 +58,11 @@ class Main extends React.Component {
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Work Experience</h2>
+          <div className="box">
+            <p><strong>BROWSERSTACK</strong> | SENIOR SOFTWARE ENGINEER</p>
+            <pre>JULY 2020 – Present</pre>
+            <p>Building the automated app testing platform <a href="https://www.browserstack.com/app-automate">App Automate</a>. Working with a bunch of awesome devs and product folks to deliver seamless experience and cutting edge features for app testers around the world.</p>
+          </div>
           <div className="box">
             <p><strong>TIAA GBS</strong> | SOFTWARE DEVELOPER INTERN</p>
             <pre>JUNE 2019 – AUG 2019</pre>
