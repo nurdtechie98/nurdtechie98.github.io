@@ -40,7 +40,7 @@ const Layout = ({ children, location }) => {
             title={data.site.siteMetadata.title}
             meta={[
               { name: 'description', content: 'The space in the internet belonging to chirag shetty' },
-              { name: 'keywords', content: 'chirag shetty,nurdtechie98,chiragshetty98,kjsce' },
+              { name: 'keywords', content: 'chirag shetty,nurdtechie98,chiragshetty98,kjsce,browserstack' },
             ]}
           >
             <html lang="en" />
