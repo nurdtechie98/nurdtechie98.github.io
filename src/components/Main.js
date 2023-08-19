@@ -12,7 +12,7 @@ class Main extends React.Component {
 
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">About Me</h2>
-          <p>I am a senior software engineer, currently building the Test Observability product of <strong>Browserstack</strong>. Over the last year or so we have built this new product from scratch and now have our initial paying customers. Building new products and exploring new tech is what I love doing .</p>
+          <p>I am a senior software engineer, currently building the <a href="https://www.browserstack.com/test-observability">Test Observability</a> product of <strong>Browserstack</strong>. Over the last year or so we have built this new product from scratch and now have our initial paying customers. Building new products and exploring new tech is what I love doing .</p>
           <p>Back in my college days, I used to spend a lot of my time solving problems on <a href='https://www.codechef.com/users/nurdtechie98'>codechef</a> <a href='https://www.codechef.com/users/nurdtechie98'>codeforces</a> and other <strong>competitive programming</strong> websites. Building new products is something which charged back then as well and as a result I have been to multiple <strong>hackathons</strong></p>
           <p>At the same time I have also done my bit of <strong>Open Source</strong> contributions checkout my github profile.</p>
           <p>Feel like working with me. Heres my complete <a href={Pdf}>resume</a></p>
